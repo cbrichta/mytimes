@@ -4,7 +4,6 @@
   font-weight: bold;
   display: inline-flex;
   border-bottom: 1px solid black;
-  flex-basis: 8000px;
 }
 .logo {
   display: flex;
