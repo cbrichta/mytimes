@@ -1,0 +1,21 @@
+.header {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  flex-basis: 8000px;
+}
+.logo {
+  display: flex;
+  padding: 10px 20px;
+}
+.logo p {
+  color: mediumaquamarine;
+  padding: 10px;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
