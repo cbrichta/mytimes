@@ -2,12 +2,14 @@
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
+  display: flex;
   border-bottom: 1px solid black;
+  width: 100%;
 }
 .logo {
   display: flex;
   padding: 10px 20px;
+  border: 1px solid black;
 }
 .logo p {
   color: mediumaquamarine;
@@ -17,4 +19,27 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  border: 1px solid black;
+}
+.navigation a {
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+}
+.column-left {
+  border: 1px solid black;
+  width: 630px;
+}
+.column-center {
+  border: 1px solid black;
+  width: 300px;
+}
+.column-right {
+  border: 1px solid black;
+  width: 240px;
 }
